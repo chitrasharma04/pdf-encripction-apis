@@ -1,0 +1,25 @@
+# VaultPDF REST API — .gitignore
+
+# Security — NEVER commit these
+.server.key
+uploads/
+logs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+venv/
+.env
+.venv/
+
+# macOS
+.DS_Store
+
+# IDEs
+.idea/
+.vscode/
+*.swp

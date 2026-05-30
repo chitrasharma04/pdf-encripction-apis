@@ -1,0 +1,9 @@
+# VaultPDF REST API — Python dependencies
+# Install with: pip install -r requirements.txt
+
+Flask>=3.0          # Web framework
+Flask-CORS>=4.0     # Cross-Origin Resource Sharing support
+cryptography>=42.0  # AES-256-CBC via hazmat primitives
+Werkzeug>=3.0       # Secure filename sanitization + request utilities
+pypdf>=4.0          # PDF validation (magic bytes / encryption checks)
+gunicorn>=21.0      # Production WSGI server (Linux/macOS)
