@@ -2,7 +2,6 @@
 
 # Security — NEVER commit these
 .server.key
-uploads/
 logs/
 
 # Python
